@@ -467,7 +467,7 @@ myPrintbar.addEventListener('click', () => {
 var myPrintmenu = document.getElementById('printmenu');
 var myPrintx = document.getElementById('xbutton');
 myPrintx.addEventListener('click', () => { 
-  myPrintmenu.style.left = '-100%';
+  myPrintmenu.style.left = '-105%';
   myPrintmenu.style.transitionDuration = '2s';
 });
 
@@ -481,7 +481,7 @@ myWebbar.addEventListener('click', () => {
 var myWebmenu = document.getElementById('webmenu');
 var myWebx = document.getElementById('xbutton2');
 myWebx.addEventListener('click', () => { 
-  myWebmenu.style.left = '-100%';
+  myWebmenu.style.left = '-105%';
   myWebmenu.style.transitionDuration = '2s';
 });
 
@@ -495,7 +495,7 @@ myOtherbar.addEventListener('click', () => {
 var myOthermenu = document.getElementById('othermenu');
 var myOtherx = document.getElementById('xbutton3');
 myOtherx.addEventListener('click', () => { 
-  myOthermenu.style.left = '-100%';
+  myOthermenu.style.left = '-105%';
   myOthermenu.style.transitionDuration = '2s';
 });
 
