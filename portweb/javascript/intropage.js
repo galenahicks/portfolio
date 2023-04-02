@@ -154,6 +154,7 @@ myPage31.addEventListener('mouseleave', () => {
   var myArrowPic2 = document.getElementById('arrowpic2');
   var myBlocker = document.getElementById('blocker');
   window.addEventListener('load', () => { 
+    if (screen.width > 820) {
     myBlocker.style.display = 'none';
     myHeader.style.height = '60%';
     myArrow.style.display = "none";
@@ -167,6 +168,7 @@ myPage31.addEventListener('mouseleave', () => {
     myPage1.style.transitionDuration = '6s';
     myPage2.style.transitionDuration = '6s';
     myPage3.style.transitionDuration = '6s';
+    }
   });
 
   var myHeader = document.getElementById('headerjunt');
@@ -438,3 +440,62 @@ myCineList.addEventListener('mouseleave', () => {
   myCineTitle.style.display = 'none';
   myCinePic.style.display = 'none';
 });
+
+var myLabTitle = document.getElementById('pagliarinititle');
+var myLabPic = document.getElementById('pagliarinipic1');
+var myLabList = document.getElementById('pagliarinilistitem');
+myLabList.addEventListener('mouseenter', () => { 
+  myLabTitle.style.display = 'block';
+  myLabPic.style.display = 'block';
+});
+
+var myLabTitle = document.getElementById('pagliarinititle');
+var myLabPic = document.getElementById('pagliarinipic1');
+var myLabList = document.getElementById('pagliarinilistitem');
+myLabList.addEventListener('mouseleave', () => { 
+  myLabTitle.style.display = 'none';
+  myLabPic.style.display = 'none';
+});
+
+var myPrintmenu = document.getElementById('printmenu');
+var myPrintbar = document.getElementById('printbar');
+myPrintbar.addEventListener('click', () => { 
+  myPrintmenu.style.left = '0%';
+  myPrintmenu.style.transitionDuration = '2s';
+});
+
+var myPrintmenu = document.getElementById('printmenu');
+var myPrintx = document.getElementById('xbutton');
+myPrintx.addEventListener('click', () => { 
+  myPrintmenu.style.left = '-100%';
+  myPrintmenu.style.transitionDuration = '2s';
+});
+
+var myWebmenu = document.getElementById('webmenu');
+var myWebbar = document.getElementById('webbar');
+myWebbar.addEventListener('click', () => { 
+  myWebmenu.style.left = '0%';
+  myWebmenu.style.transitionDuration = '2s';
+});
+
+var myWebmenu = document.getElementById('webmenu');
+var myWebx = document.getElementById('xbutton2');
+myWebx.addEventListener('click', () => { 
+  myWebmenu.style.left = '-100%';
+  myWebmenu.style.transitionDuration = '2s';
+});
+
+var myOthermenu = document.getElementById('othermenu');
+var myOtherbar = document.getElementById('otherbar');
+myOtherbar.addEventListener('click', () => { 
+  myOthermenu.style.left = '0%';
+  myOthermenu.style.transitionDuration = '2s';
+});
+
+var myOthermenu = document.getElementById('othermenu');
+var myOtherx = document.getElementById('xbutton3');
+myOtherx.addEventListener('click', () => { 
+  myOthermenu.style.left = '-100%';
+  myOthermenu.style.transitionDuration = '2s';
+});
+
