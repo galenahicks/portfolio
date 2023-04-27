@@ -64,6 +64,7 @@ width: 50%;
   @media only screen and (max-width: 974px) {
     .subtitle {
       font-size: 100%;
+      text-align: center;
     }
   }
   .home{
