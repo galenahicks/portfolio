@@ -25,7 +25,8 @@ color:rgb(114, 114, 114);
 font-size: 110%;
 padding:2%;
 margin: auto;
-text-align: center;
+text-align: left;
+width: 50%;
   }
 
   .portpics{

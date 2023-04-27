@@ -457,6 +457,23 @@ myLabList.addEventListener('mouseleave', () => {
   myLabPic.style.display = 'none';
 });
 
+var myMraTitle = document.getElementById('mratitle');
+var myMraPic = document.getElementById('mrapic1');
+var myMraList = document.getElementById('mralistitem');
+myMraList.addEventListener('mouseenter', () => { 
+  myMraTitle.style.display = 'block';
+  myMraPic.style.display = 'block';
+});
+
+var myMraTitle = document.getElementById('mratitle');
+var myMraPic = document.getElementById('mrapic1');
+var myMraList = document.getElementById('mralistitem');
+myMraList.addEventListener('mouseleave', () => { 
+  myMraTitle.style.display = 'none';
+  myMraPic.style.display = 'none';
+});
+
+
 var myPrintmenu = document.getElementById('printmenu');
 var myPrintbar = document.getElementById('printbar');
 myPrintbar.addEventListener('click', () => { 
