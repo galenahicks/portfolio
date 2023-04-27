@@ -661,3 +661,17 @@ font-style: normal;
   font-weight: 500;
   left:80%;
 }
+
+.contact{
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 150%;
+position: absolute;
+z-index: 200;
+top:1%;
+width: 25%;
+text-align: center;
+left:70%;
+cursor:pointer;
+}
