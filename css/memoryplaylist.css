@@ -102,3 +102,13 @@ text-align: center;
   text-align: center;
 }
 
+#resume{
+  color: rgb(253, 76, 0);
+  transition: all 1s;
+}
+
+
+.contactlist{
+  transition: all 1s;
+}
+
