@@ -149,6 +149,12 @@ font-style: normal;
     top:89%;
   }
 
+  .projyear{
+    font-size: 65%;
+    color:rgb(114, 114, 114);
+    opacity: 75%;
+  }
+
 
   .projects:hover{
     color: rgb(0, 153, 255);
