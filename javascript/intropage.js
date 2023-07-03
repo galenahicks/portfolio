@@ -474,6 +474,22 @@ myPhotoList.addEventListener('mouseleave', () => {
   myPhotoPic.style.display = 'none';
 });
 
+var myMVTitle = document.getElementById('musicvideostitle');
+var myMVPic = document.getElementById('mvpic1');
+var myMVList = document.getElementById('musicvideoslistitem');
+myMVList.addEventListener('mouseenter', () => { 
+  myMVTitle.style.display = 'block';
+  myMVPic.style.display = 'block';
+});
+
+var myMVTitle = document.getElementById('musicvideostitle');
+var myMVPic = document.getElementById('mvpic1');
+var myMVList = document.getElementById('musicvideoslistitem');
+myMVList.addEventListener('mouseleave', () => { 
+  myMVTitle.style.display = 'none';
+  myMVPic.style.display = 'none';
+});
+
 var myMraTitle = document.getElementById('mratitle');
 var myMraPic = document.getElementById('mrapic1');
 var myMraList = document.getElementById('mralistitem');
