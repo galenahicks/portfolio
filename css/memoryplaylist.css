@@ -59,6 +59,10 @@ width: 50%;
       width:80%;
       height:auto;
     }
+    .portpics:hover {
+      z-index: 100;
+      width: 95%;
+    }
   }
 
   @media only screen and (max-width: 974px) {
@@ -71,6 +75,7 @@ width: 50%;
     .subtitle {
       font-size: 100%;
       text-align: center;
+      width: 95%;
     }
   }
   .home{
