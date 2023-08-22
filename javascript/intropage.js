@@ -117,7 +117,7 @@ myPage31.addEventListener('mouseleave', () => {
   myBlur3.style.transitionDuration = '3s';
 });
 
-
+var myFeatured = document.getElementById('featured');
 
   var myHeader = document.getElementById('headerjunt');
   var myArrow = document.getElementById('arrow');
@@ -129,6 +129,7 @@ myPage31.addEventListener('mouseleave', () => {
   var myArrowPic2 = document.getElementById('arrowpic2');
   var myBlocker = document.getElementById('blocker');
   myArrow.addEventListener('click', () => { 
+    myFeatured.style.display ='none';
     myBlocker.style.display = 'none';
     myHeader.style.height = '60%';
     myArrow.style.display = "none";
@@ -144,32 +145,32 @@ myPage31.addEventListener('mouseleave', () => {
     myPage3.style.transitionDuration = '3s';
   });
 
-  var myHeader = document.getElementById('headerjunt');
-  var myArrow = document.getElementById('arrow');
-  var myArrowPic = document.getElementById('arrowpic');
-  var myPage1 = document.getElementById('page1');
-  var myPage2 = document.getElementById('page2');
-  var myPage3 = document.getElementById('page3');
-  var myArrow2 = document.getElementById('arrow2');
-  var myArrowPic2 = document.getElementById('arrowpic2');
-  var myBlocker = document.getElementById('blocker');
-  window.addEventListener('load', () => { 
-    if (screen.width > 820) {
-    myBlocker.style.display = 'none';
-    myHeader.style.height = '60%';
-    myArrow.style.display = "none";
-    myArrow2.style.display = "block";
-    myArrowPic2.style.width = "5%";
-    myHeader.style.transitionDuration = '6s';
-    myArrowPic.style.transitionDuration = '6s';
-    myPage1.style.top = '59%';
-    myPage2.style.top = '59%';
-    myPage3.style.top = '59%';
-    myPage1.style.transitionDuration = '6s';
-    myPage2.style.transitionDuration = '6s';
-    myPage3.style.transitionDuration = '6s';
-    }
-  });
+  // var myHeader = document.getElementById('headerjunt');
+  // var myArrow = document.getElementById('arrow');
+  // var myArrowPic = document.getElementById('arrowpic');
+  // var myPage1 = document.getElementById('page1');
+  // var myPage2 = document.getElementById('page2');
+  // var myPage3 = document.getElementById('page3');
+  // var myArrow2 = document.getElementById('arrow2');
+  // var myArrowPic2 = document.getElementById('arrowpic2');
+  // var myBlocker = document.getElementById('blocker');
+  // window.addEventListener('load', () => { 
+  //   if (screen.width > 820) {
+  //   myBlocker.style.display = 'none';
+  //   myHeader.style.height = '60%';
+  //   myArrow.style.display = "none";
+  //   myArrow2.style.display = "block";
+  //   myArrowPic2.style.width = "5%";
+  //   myHeader.style.transitionDuration = '6s';
+  //   myArrowPic.style.transitionDuration = '6s';
+  //   myPage1.style.top = '59%';
+  //   myPage2.style.top = '59%';
+  //   myPage3.style.top = '59%';
+  //   myPage1.style.transitionDuration = '6s';
+  //   myPage2.style.transitionDuration = '6s';
+  //   myPage3.style.transitionDuration = '6s';
+  //   }
+  // });
 
   var myHeader = document.getElementById('headerjunt');
   var myArrow = document.getElementById('arrow');
@@ -181,6 +182,7 @@ myPage31.addEventListener('mouseleave', () => {
   var myArrowPic2 = document.getElementById('arrowpic2');
   var myBlocker = document.getElementById('blocker');
   myArrow2.addEventListener('click', () => { 
+    myFeatured.style.display ='block';
     myBlocker.style.display = 'block';
     myHeader.style.height = '90%';
     myArrow.style.display = "block";
@@ -506,6 +508,21 @@ myMraList.addEventListener('mouseleave', () => {
   myMraPic.style.display = 'none';
 });
 
+var mySFMOMATitle = document.getElementById('sfmomatitle');
+var mySFMOMAPic = document.getElementById('sfmomapic1');
+var mySFMOMAList = document.getElementById('sfmomalistitem');
+mySFMOMAList.addEventListener('mouseenter', () => { 
+  mySFMOMATitle.style.display = 'block';
+  mySFMOMAPic.style.display = 'block';
+});
+
+var mySFMOMATitle = document.getElementById('sfmomatitle');
+var mySFMOMAPic = document.getElementById('sfmomapic1');
+var mySFMOMAList = document.getElementById('sfmomalistitem');
+mySFMOMAList.addEventListener('mouseleave', () => { 
+  mySFMOMATitle.style.display = 'none';
+  mySFMOMAPic.style.display = 'none';
+});
 
 var myPrintmenu = document.getElementById('printmenu');
 var myPrintbar = document.getElementById('printbar');
@@ -549,3 +566,18 @@ myOtherx.addEventListener('click', () => {
   myOthermenu.style.transitionDuration = '2s';
 });
 
+// var myTestimage2 = document.getElementById('test2');
+// var myTestimage1 = document.getElementById('test1');
+// myTestimage1.addEventListener('mouseenter', () => { 
+//     myTestimage2.style.zIndex = '50';
+//     myTestimage2.style.filter = 'blur(0px)';
+//     myTestimage2.style.opacity = '70%';
+//     myTestimage1.style.zIndex = '45';
+//     myTestimage1.style.filter = 'blur(5px)';
+//     myTestimage1.style.opacity = '50%';
+//     myTestimage1.style.height = '60%';
+//     myTestimage2.style.height = '50%';
+//     myTestimage1.style.transitionDuration = '1s';
+//     myTestimage2.style.transitionDuration = '1s';
+
+//     });
