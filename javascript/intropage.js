@@ -395,21 +395,21 @@ myBamList.addEventListener('mouseleave', () => {
   myBamPic.style.display = 'none';
 });
 
-// var myAllseekTitle = document.getElementById('allseektitle');
-// var myAllseekPic = document.getElementById('allseekpic1');
-// var myAllseekList = document.getElementById('allseeklistitem');
-// myAllseekList.addEventListener('mouseenter', () => { 
-//   myAllseekTitle.style.display = 'block';
-//   myAllseekPic.style.display = 'block';
-// });
+var myAllseekTitle = document.getElementById('allseektitle');
+var myAllseekPic = document.getElementById('allseekpic1');
+var myAllseekList = document.getElementById('allseeklistitem');
+myAllseekList.addEventListener('mouseenter', () => { 
+  myAllseekTitle.style.display = 'block';
+  myAllseekPic.style.display = 'block';
+});
 
-// var myAllseekTitle = document.getElementById('allseektitle');
-// var myAllseekPic = document.getElementById('allseekpic1');
-// var myAllseekList = document.getElementById('allseeklistitem');
-// myAllseekList.addEventListener('mouseleave', () => { 
-//   myAllseekTitle.style.display = 'none';
-//   myAllseekPic.style.display = 'none';
-// });
+var myAllseekTitle = document.getElementById('allseektitle');
+var myAllseekPic = document.getElementById('allseekpic1');
+var myAllseekList = document.getElementById('allseeklistitem');
+myAllseekList.addEventListener('mouseleave', () => { 
+  myAllseekTitle.style.display = 'none';
+  myAllseekPic.style.display = 'none';
+});
 
 // var mySwitchTitle = document.getElementById('switchtitle');
 // var mySwitchPic = document.getElementById('switchpic1');
