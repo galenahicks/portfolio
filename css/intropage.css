@@ -842,4 +842,5 @@ cursor:pointer;
   top: 15%;
   left: 50%;
   cursor: pointer;
+  transition: all 3s ease;
 }
