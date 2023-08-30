@@ -524,6 +524,22 @@ mySFMOMAList.addEventListener('mouseleave', () => {
   mySFMOMAPic.style.display = 'none';
 });
 
+var myLanguageTitle = document.getElementById('languagetitle');
+var myLanguagePic = document.getElementById('languagepic1');
+var myLanguageList = document.getElementById('languagelistitem');
+myLanguageList.addEventListener('mouseenter', () => { 
+  myLanguageTitle.style.display = 'block';
+  myLanguagePic.style.display = 'block';
+});
+
+var myLanguageTitle = document.getElementById('languagetitle');
+var myLanguagePic = document.getElementById('languagepic1');
+var myLanguageList = document.getElementById('languagelistitem');
+myLanguageList.addEventListener('mouseleave', () => { 
+  myLanguageTitle.style.display = 'none';
+  myLanguagePic.style.display = 'none';
+});
+
 var myPrintmenu = document.getElementById('printmenu');
 var myPrintbar = document.getElementById('printbar');
 myPrintbar.addEventListener('click', () => { 
