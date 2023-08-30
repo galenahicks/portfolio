@@ -501,6 +501,14 @@ animation: minimizeanimation 2.5s infinite;
   display: none;
 }
 
+#languagepic1{
+  width: 40%;
+  height: auto;
+  position: absolute;
+  left:53%;
+  top:5%;
+  display: none;
+}
 
 #memorytitle{
   display: none;
@@ -554,6 +562,10 @@ animation: minimizeanimation 2.5s infinite;
   display: none;
 }
 
+#languagetitle{
+  display: none;
+}
+
 #memorylistitem{
   cursor: pointer;
 }
@@ -603,6 +615,10 @@ animation: minimizeanimation 2.5s infinite;
 }
 
 #sfmomalistitem{
+  cursor: pointer;
+}
+
+#languagelistitem{
   cursor: pointer;
 }
 
