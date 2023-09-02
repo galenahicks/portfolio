@@ -484,10 +484,10 @@ animation: minimizeanimation 2.5s infinite;
 }
 
 #mrapic1{
-  width: 40%;
+  width: 50%;
   height: auto;
   position: absolute;
-  left:53%;
+  left:50%;
   top:5%;
   display: none;
 }
