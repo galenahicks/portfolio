@@ -7,7 +7,7 @@ html{
 
 .largetitle{
     font-family: neue-haas-grotesk-display, sans-serif;
-font-weight: 600;
+font-weight: 400;
 font-style: normal;
 font-size: 400%;
 padding:2%;
@@ -147,8 +147,8 @@ line-height: 200%;
   @media only screen and (max-width: 974px) {
     .subtitle {
       font-size: 100%;
-      text-align: center;
-      width: 95%;
+      /* text-align: center; */
+      width: 90%;
     }
   }
   .home{
