@@ -597,3 +597,78 @@ myOtherx.addEventListener('click', () => {
 //     myTestimage2.style.transitionDuration = '1s';
 
 //     });
+
+var mySlide1 = document.getElementById('slide1');
+var mySlide2 = document.getElementById('slide2');
+var mySlide3 = document.getElementById('slide3');
+var mySlide4 = document.getElementById('slide4');
+var mySlide5 = document.getElementById('slide5');
+var myFeat1 = document.getElementById('firstfeat');
+var myFeat2 = document.getElementById('secondfeat');
+var myFeat3 = document.getElementById('thirdfeat');
+var myFeat4 = document.getElementById('fourthfeat');
+var myFeat5 = document.getElementById('fifthfeat');
+mySlide1.addEventListener('click', () => { 
+  mySlide1.style.color = 'rgb(253, 76, 0)';
+  mySlide2.style.color = 'black';
+  mySlide3.style.color = 'black';
+  mySlide4.style.color = 'black';
+  mySlide5.style.color = 'black';
+  myFeat1.style.display = 'block';
+  myFeat2.style.display = 'none';
+  myFeat3.style.display = 'none';
+  myFeat4.style.display = 'none';
+  myFeat5.style.display = 'none';
+});
+
+mySlide2.addEventListener('click', () => { 
+  mySlide1.style.color = 'black';
+  mySlide2.style.color = 'rgb(253, 76, 0)';
+  mySlide3.style.color = 'black';
+  mySlide4.style.color = 'black';
+  mySlide5.style.color = 'black';
+  myFeat1.style.display = 'none';
+  myFeat2.style.display = 'block';
+  myFeat3.style.display = 'none';
+  myFeat4.style.display = 'none';
+  myFeat5.style.display = 'none';
+});
+
+mySlide3.addEventListener('click', () => { 
+  mySlide1.style.color = 'black';
+  mySlide2.style.color = 'black';
+  mySlide3.style.color = 'rgb(253, 76, 0)';
+  mySlide4.style.color = 'black';
+  mySlide5.style.color = 'black';
+  myFeat1.style.display = 'none';
+  myFeat2.style.display = 'none';
+  myFeat3.style.display = 'block';
+  myFeat4.style.display = 'none';
+  myFeat5.style.display = 'none';
+});
+
+mySlide4.addEventListener('click', () => { 
+  mySlide1.style.color = 'black';
+  mySlide2.style.color = 'black';
+  mySlide3.style.color = 'black';
+  mySlide4.style.color = 'rgb(253, 76, 0)';
+  mySlide5.style.color = 'black';
+  myFeat1.style.display = 'none';
+  myFeat2.style.display = 'none';
+  myFeat3.style.display = 'none';
+  myFeat4.style.display = 'block';
+  myFeat5.style.display = 'none';
+});
+
+mySlide5.addEventListener('click', () => { 
+  mySlide1.style.color = 'black';
+  mySlide2.style.color = 'black';
+  mySlide3.style.color = 'black';
+  mySlide4.style.color = 'black';
+  mySlide5.style.color = 'rgb(253, 76, 0)';
+  myFeat1.style.display = 'none';
+  myFeat2.style.display = 'none';
+  myFeat3.style.display = 'none';
+  myFeat4.style.display = 'none';
+  myFeat5.style.display = 'block';
+});
