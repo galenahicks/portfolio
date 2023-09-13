@@ -652,9 +652,9 @@ font-style: normal;
     text-align: center;
     object-fit:contain;
     background-color: rgba(226, 226, 226, 0);
-    box-shadow: 0px 0px 10px rgb(101, 101, 101);
+    /* box-shadow: 0px 0px 10px rgb(101, 101, 101); */
     /* backdrop-filter: blur(10px); */
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
     display: none;
 }
 .mobilepics{
@@ -667,6 +667,7 @@ font-style: normal;
   display: none;
   /* filter: blur(3px); */
   filter: grayscale(100%);
+  opacity:0%;
 }
 
 #mobilepic1{
