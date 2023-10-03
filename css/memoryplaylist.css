@@ -312,3 +312,10 @@ margin-top: 2%;
   font-weight: bold;
   color:rgb(0, 153, 255);
  }
+
+ .bigimage{
+  width: 70%;
+  margin-left: 15%;
+  height: auto;
+  padding-bottom: 2%;
+ }
