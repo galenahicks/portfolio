@@ -319,7 +319,7 @@ var myMemoryTitle = document.getElementById('memorytitle');
 var myMemoryPic = document.getElementById('memorypic1');
 var myMemoryList = document.getElementById('memorylistitem');
 myMemoryList.addEventListener('mouseenter', () => { 
-  myMemoryTitle.style.display = 'block';
+  // myMemoryTitle.style.display = 'block';
   myMemoryPic.style.display = 'block';
 });
 
@@ -327,7 +327,7 @@ var myMemoryTitle = document.getElementById('memorytitle');
 var myMemoryPic = document.getElementById('memorypic1');
 var myMemoryList = document.getElementById('memorylistitem');
 myMemoryList.addEventListener('mouseleave', () => { 
-  myMemoryTitle.style.display = 'none';
+  // myMemoryTitle.style.display = 'none';
   myMemoryPic.style.display = 'none';
 });
 
@@ -335,7 +335,7 @@ var myOrangeTitle = document.getElementById('orangetitle');
 var myOrangePic = document.getElementById('orangepic1');
 var myOrangeList = document.getElementById('orangelistitem');
 myOrangeList.addEventListener('mouseenter', () => { 
-  myOrangeTitle.style.display = 'block';
+  // myOrangeTitle.style.display = 'block';
   myOrangePic.style.display = 'block';
 });
 
@@ -343,7 +343,7 @@ var myOrangeTitle = document.getElementById('orangetitle');
 var myOrangePic = document.getElementById('orangepic1');
 var myOrangeList = document.getElementById('orangelistitem');
 myOrangeList.addEventListener('mouseleave', () => { 
-  myOrangeTitle.style.display = 'none';
+  // myOrangeTitle.style.display = 'none';
   myOrangePic.style.display = 'none';
 });
 
@@ -351,7 +351,7 @@ var myReverbTitle = document.getElementById('reverbtitle');
 var myReverbPic = document.getElementById('reverbpic1');
 var myReverbList = document.getElementById('reverblistitem');
 myReverbList.addEventListener('mouseenter', () => { 
-  myReverbTitle.style.display = 'block';
+  // myReverbTitle.style.display = 'block';
   myReverbPic.style.display = 'block';
 });
 
@@ -359,7 +359,7 @@ var myReverbTitle = document.getElementById('reverbtitle');
 var myReverbPic = document.getElementById('reverbpic1');
 var myReverbList = document.getElementById('reverblistitem');
 myReverbList.addEventListener('mouseleave', () => { 
-  myReverbTitle.style.display = 'none';
+  // myReverbTitle.style.display = 'none';
   myReverbPic.style.display = 'none';
 });
 
@@ -367,7 +367,7 @@ var myCrestTitle = document.getElementById('cresttitle');
 var myCrestPic = document.getElementById('crestpic1');
 var myCrestList = document.getElementById('crestlistitem');
 myCrestList.addEventListener('mouseenter', () => { 
-  myCrestTitle.style.display = 'block';
+  // myCrestTitle.style.display = 'block';
   myCrestPic.style.display = 'block';
 });
 
@@ -375,7 +375,7 @@ var myCrestTitle = document.getElementById('cresttitle');
 var myCrestPic = document.getElementById('crestpic1');
 var myCrestList = document.getElementById('crestlistitem');
 myCrestList.addEventListener('mouseleave', () => { 
-  myCrestTitle.style.display = 'none';
+  // myCrestTitle.style.display = 'none';
   myCrestPic.style.display = 'none';
 });
 
@@ -383,7 +383,7 @@ var myBamTitle = document.getElementById('bamtitle');
 var myBamPic = document.getElementById('bampic1');
 var myBamList = document.getElementById('bamlistitem');
 myBamList.addEventListener('mouseenter', () => { 
-  myBamTitle.style.display = 'block';
+  // myBamTitle.style.display = 'block';
   myBamPic.style.display = 'block';
 });
 
@@ -391,7 +391,7 @@ var myBamTitle = document.getElementById('bamtitle');
 var myBamPic = document.getElementById('bampic1');
 var myBamList = document.getElementById('bamlistitem');
 myBamList.addEventListener('mouseleave', () => { 
-  myBamTitle.style.display = 'none';
+  // myBamTitle.style.display = 'none';
   myBamPic.style.display = 'none';
 });
 
@@ -399,7 +399,7 @@ var myAllseekTitle = document.getElementById('allseektitle');
 var myAllseekPic = document.getElementById('allseekpic1');
 var myAllseekList = document.getElementById('allseeklistitem');
 myAllseekList.addEventListener('mouseenter', () => { 
-  myAllseekTitle.style.display = 'block';
+  // myAllseekTitle.style.display = 'block';
   myAllseekPic.style.display = 'block';
 });
 
@@ -407,7 +407,7 @@ var myAllseekTitle = document.getElementById('allseektitle');
 var myAllseekPic = document.getElementById('allseekpic1');
 var myAllseekList = document.getElementById('allseeklistitem');
 myAllseekList.addEventListener('mouseleave', () => { 
-  myAllseekTitle.style.display = 'none';
+  // myAllseekTitle.style.display = 'none';
   myAllseekPic.style.display = 'none';
 });
 
@@ -431,7 +431,7 @@ var myCineTitle = document.getElementById('cinetitle');
 var myCinePic = document.getElementById('cinepic1');
 var myCineList = document.getElementById('cinelistitem');
 myCineList.addEventListener('mouseenter', () => { 
-  myCineTitle.style.display = 'block';
+  // myCineTitle.style.display = 'block';
   myCinePic.style.display = 'block';
 });
 
@@ -439,7 +439,7 @@ var myCineTitle = document.getElementById('cinetitle');
 var myCinePic = document.getElementById('cinepic1');
 var myCineList = document.getElementById('cinelistitem');
 myCineList.addEventListener('mouseleave', () => { 
-  myCineTitle.style.display = 'none';
+  // myCineTitle.style.display = 'none';
   myCinePic.style.display = 'none';
 });
 
@@ -447,7 +447,7 @@ var myLabTitle = document.getElementById('pagliarinititle');
 var myLabPic = document.getElementById('pagliarinipic1');
 var myLabList = document.getElementById('pagliarinilistitem');
 myLabList.addEventListener('mouseenter', () => { 
-  myLabTitle.style.display = 'block';
+  // myLabTitle.style.display = 'block';
   myLabPic.style.display = 'block';
 });
 
@@ -455,7 +455,7 @@ var myLabTitle = document.getElementById('pagliarinititle');
 var myLabPic = document.getElementById('pagliarinipic1');
 var myLabList = document.getElementById('pagliarinilistitem');
 myLabList.addEventListener('mouseleave', () => { 
-  myLabTitle.style.display = 'none';
+  // myLabTitle.style.display = 'none';
   myLabPic.style.display = 'none';
 });
 
@@ -464,7 +464,7 @@ var myPhotoTitle = document.getElementById('photographytitle');
 var myPhotoPic = document.getElementById('photographypic1');
 var myPhotoList = document.getElementById('photographylistitem');
 myPhotoList.addEventListener('mouseenter', () => { 
-  myPhotoTitle.style.display = 'block';
+  // myPhotoTitle.style.display = 'block';
   myPhotoPic.style.display = 'block';
 });
 
@@ -472,31 +472,31 @@ var myPhotoTitle = document.getElementById('photographytitle');
 var myPhotoPic = document.getElementById('photographypic1');
 var myPhotoList = document.getElementById('photographylistitem');
 myPhotoList.addEventListener('mouseleave', () => { 
-  myPhotoTitle.style.display = 'none';
+  // myPhotoTitle.style.display = 'none';
   myPhotoPic.style.display = 'none';
 });
 
-var myMVTitle = document.getElementById('musicvideostitle');
-var myMVPic = document.getElementById('mvpic1');
-var myMVList = document.getElementById('musicvideoslistitem');
-myMVList.addEventListener('mouseenter', () => { 
-  myMVTitle.style.display = 'block';
-  myMVPic.style.display = 'block';
-});
+// var myMVTitle = document.getElementById('musicvideostitle');
+// var myMVPic = document.getElementById('mvpic1');
+// var myMVList = document.getElementById('musicvideoslistitem');
+// myMVList.addEventListener('mouseenter', () => { 
+//   // myMVTitle.style.display = 'block';
+//   myMVPic.style.display = 'block';
+// });
 
-var myMVTitle = document.getElementById('musicvideostitle');
-var myMVPic = document.getElementById('mvpic1');
-var myMVList = document.getElementById('musicvideoslistitem');
-myMVList.addEventListener('mouseleave', () => { 
-  myMVTitle.style.display = 'none';
-  myMVPic.style.display = 'none';
-});
+// var myMVTitle = document.getElementById('musicvideostitle');
+// var myMVPic = document.getElementById('mvpic1');
+// var myMVList = document.getElementById('musicvideoslistitem');
+// myMVList.addEventListener('mouseleave', () => { 
+//   // myMVTitle.style.display = 'none';
+//   myMVPic.style.display = 'none';
+// });
 
 var myMraTitle = document.getElementById('mratitle');
 var myMraPic = document.getElementById('mrapic1');
 var myMraList = document.getElementById('mralistitem');
 myMraList.addEventListener('mouseenter', () => { 
-  myMraTitle.style.display = 'block';
+  // myMraTitle.style.display = 'block';
   myMraPic.style.display = 'block';
 });
 
@@ -504,7 +504,7 @@ var myMraTitle = document.getElementById('mratitle');
 var myMraPic = document.getElementById('mrapic1');
 var myMraList = document.getElementById('mralistitem');
 myMraList.addEventListener('mouseleave', () => { 
-  myMraTitle.style.display = 'none';
+  // myMraTitle.style.display = 'none';
   myMraPic.style.display = 'none';
 });
 
@@ -512,7 +512,7 @@ var mySFMOMATitle = document.getElementById('sfmomatitle');
 var mySFMOMAPic = document.getElementById('sfmomapic1');
 var mySFMOMAList = document.getElementById('sfmomalistitem');
 mySFMOMAList.addEventListener('mouseenter', () => { 
-  mySFMOMATitle.style.display = 'block';
+  // mySFMOMATitle.style.display = 'block';
   mySFMOMAPic.style.display = 'block';
 });
 
@@ -520,25 +520,25 @@ var mySFMOMATitle = document.getElementById('sfmomatitle');
 var mySFMOMAPic = document.getElementById('sfmomapic1');
 var mySFMOMAList = document.getElementById('sfmomalistitem');
 mySFMOMAList.addEventListener('mouseleave', () => { 
-  mySFMOMATitle.style.display = 'none';
+  // mySFMOMATitle.style.display = 'none';
   mySFMOMAPic.style.display = 'none';
 });
 
-var myLanguageTitle = document.getElementById('languagetitle');
-var myLanguagePic = document.getElementById('languagepic1');
-var myLanguageList = document.getElementById('languagelistitem');
-myLanguageList.addEventListener('mouseenter', () => { 
-  myLanguageTitle.style.display = 'block';
-  myLanguagePic.style.display = 'block';
-});
+// var myLanguageTitle = document.getElementById('languagetitle');
+// var myLanguagePic = document.getElementById('languagepic1');
+// var myLanguageList = document.getElementById('languagelistitem');
+// myLanguageList.addEventListener('mouseenter', () => { 
+//   // myLanguageTitle.style.display = 'block';
+//   myLanguagePic.style.display = 'block';
+// });
 
-var myLanguageTitle = document.getElementById('languagetitle');
-var myLanguagePic = document.getElementById('languagepic1');
-var myLanguageList = document.getElementById('languagelistitem');
-myLanguageList.addEventListener('mouseleave', () => { 
-  myLanguageTitle.style.display = 'none';
-  myLanguagePic.style.display = 'none';
-});
+// var myLanguageTitle = document.getElementById('languagetitle');
+// var myLanguagePic = document.getElementById('languagepic1');
+// var myLanguageList = document.getElementById('languagelistitem');
+// myLanguageList.addEventListener('mouseleave', () => { 
+//   // myLanguageTitle.style.display = 'none';
+//   myLanguagePic.style.display = 'none';
+// });
 
 var myPrintmenu = document.getElementById('printmenu');
 var myPrintbar = document.getElementById('printbar');
