@@ -48,6 +48,28 @@ line-height: 200%;
     z-index: 1;
   }
 
+  .metpics{
+    width: 33%;
+    height: auto;
+    padding: 1%;
+    z-index: 1;
+  }
+
+  .metemailpics{
+    width: 70%;
+    height: auto;
+    padding: 1%;
+    z-index: 1;
+  }
+
+  .aidapics{
+    width: 25%;
+    height: auto;
+    padding: 3%;
+    transition: all 3s ease;
+    z-index: 1;
+  }
+
   .portpicsJAN{
     width: 20%;
     height: auto;
@@ -130,6 +152,18 @@ line-height: 200%;
       width:80%;
       height:auto;
     }
+    .metpics {
+      width:80%;
+      height:auto;
+    }
+    .metemailpics {
+      width:90%;
+      height:auto;
+    }
+    .aidapics {
+      width:80%;
+      height:auto;
+    }
     .portpicsJAN {
       width:40%;
       height:auto;
@@ -144,6 +178,10 @@ line-height: 200%;
     }
     .musicvid{
       height:18%;
+    }
+    .fathomvids{
+      width:70%;
+      padding-bottom: 5%;
     }
     .musicvidJAN{
       height:auto;
@@ -239,6 +277,10 @@ text-align: center;
 }
 
 .musicvid{
+  margin-left: 17.5%;
+}
+
+.fathomvids{
   margin-left: 17.5%;
 }
 
@@ -356,4 +398,23 @@ margin-top: 2%;
   margin-left: 15%;
   height: auto;
   padding-bottom: 2%;
+ }
+
+ .metlogo{
+  width: 45%;
+  height: auto;
+  /* padding-bottom: 2%; */
+ }
+
+ .metsubtitles{
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 500;
+font-style: italic;
+color:rgb(114, 114, 114);
+font-size: 250%;
+/* padding:2%; */
+margin-left: 5%;
+text-align: left;
+width: 50%;
+line-height: 200%;
  }
