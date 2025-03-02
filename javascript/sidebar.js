@@ -1,6 +1,9 @@
 var myExplore = document.getElementById('explorebutton');
 var myCloseButton = document.getElementById('closesidebar');
 var mySidebar = document.getElementById('sidebar');
+var myMobilesidebar = document.getElementById('mobilesidebar');
+var myMobileexplore= document.getElementById('mobileexplore');
+var myMobileclose = document.getElementById('mobileclose');
 
 myExplore.addEventListener('click', () => { 
     myExplore.style.display = 'none';
@@ -16,4 +19,16 @@ myCloseButton.addEventListener('click', () => {
     mySidebar.style.transitionDuration = '2s';
 });
 
-console.log("is it working?")
+myMobileexplore.addEventListener('click', () => { 
+  myMobileexplore.style.display = 'none';
+myMobileclose.style.display = 'block';
+myMobilesidebar.style.left = '0%';
+myMobilesidebar.style.transitionDuration = '2s';
+});
+
+myMobileclose.addEventListener('click', () => { 
+  myMobileclose.style.display = 'none';
+  myMobileexplore.style.display = 'block';
+  myMobilesidebar.style.left = '110%';
+  myMobilesidebar.style.transitionDuration = '2s';
+});
