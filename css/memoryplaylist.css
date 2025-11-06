@@ -508,19 +508,19 @@ line-height: 200%;
   z-index: 300;
   position: fixed;
   font-family: neue-haas-grotesk-display, sans-serif;
-  line-height: 2.7vw;
+  line-height: 2.3vw;
 }
 #sidebarlist{
   padding-top: 25%;
   list-style: none;
 }
 .sidebarcategories{
-  font-size: 1.2vw;
+  font-size: 1vw;
   font-weight: 600;
 
 }
 .sidebarpages{
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 .sidebarpages:hover{
   text-decoration: underline;
@@ -546,6 +546,7 @@ line-height: 200%;
   line-height: 300%;
   height: 100%;
   left:110%;
+  padding-top: 3%;
 }
 
 #mobileexplore{
@@ -576,10 +577,10 @@ line-height: 200%;
 
 
 .mobilelistcategories{
-  font-size: 200%;
+  font-size: 190%;
   font-weight: 600;
 }
 
 .mobilelistpages{
-  font-size: 150%;
+  font-size: 130%;
 }

@@ -111,7 +111,7 @@ html{
     left: 0%;
     width: 33.33%;
   height: 11%;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
     text-align: center;
   }
 
@@ -123,7 +123,7 @@ html{
     left: 33.33%;
     width: 33.33%;
     height: 11%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
   text-align: center;
   }
 
@@ -133,7 +133,7 @@ html{
     left: 66.66%;
     width: 33.33%;
     height: 11%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
   text-align: center;
   }
 
@@ -141,7 +141,7 @@ html{
     font-family: neue-haas-grotesk-display, sans-serif;
 font-weight: 600;
 font-style: normal;
-    font-size: 1.9vw;
+    font-size: 1.7vw;
     float: left;
     color: rgb(114, 114, 114);
     background-color: rgba(255, 255, 255, 0.418);
@@ -341,7 +341,7 @@ animation: minimizeanimation 2.5s infinite;
   }
 .projects{
   padding:1%;
-  font-size:1.5vw;
+  font-size:1vw;
 }
 
 .sections{
@@ -385,7 +385,7 @@ animation: minimizeanimation 2.5s infinite;
     list-style-type:none;
     margin: 0%;
     padding:0%;
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
 
 
@@ -393,14 +393,14 @@ animation: minimizeanimation 2.5s infinite;
     list-style-type:none;
     margin: 0%;
     padding:0%;
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
 
   #weblist{
     list-style-type:none;
     margin: 0%;
     padding:0%;
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
  
 /* MEMORY PLAYLIST */
@@ -458,6 +458,25 @@ animation: minimizeanimation 2.5s infinite;
   top:7%;
   display: none;
 }
+
+#metemailpic1{
+  width: 35%;
+  height: auto;
+  position: absolute;
+  left:56%;
+  top:7%;
+  display: none;
+}
+
+#liveinhdpic1{
+  width: 35%;
+  height: auto;
+  position: absolute;
+  left:56%;
+  top:7%;
+  display: none;
+}
+
 
 #switchpic1{
   width: 35%;
@@ -904,7 +923,7 @@ cursor:pointer;
   position: absolute;
   width: 40vw;
   height: 50vh;
-  top: 15%;
+  top: 5%;
   left: 50%;
   cursor: pointer;
   transition: all 3s ease;
@@ -936,12 +955,12 @@ font-style: normal;
   color:rgb(253, 76, 0);
 }
 
-.featurenumer{
-  transition: all 1s;
+.featurenumber{
+  transition: all 0.2s;
 }
 
 .featurenumber:hover{
-  font-size: 2vw;
+  font-size: 1.4vw;
   color:rgb(253, 76, 0);
 }
 
@@ -971,8 +990,176 @@ font-weight: 600;
 font-size: 2vw;
 /* letter-spacing:0.2vw; */
 margin:0%;
-margin-bottom: -5%;
+margin-bottom: -3%;
 margin-left:31%;
 }
 
+  #navbar{
+  height: 10%;
+  position: fixed;
+  list-style-type: none;
+  color:black;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 100;
+font-style: normal;
+  font-size: 100%;
+  left: 60%;
+  top: 7.6%;
+  width:50%;
+  margin-top: -3%;
+  z-index: 400;
+  display: none;
+}
+#navbarbg{
+  display: none;
+  background-color: rgba(255, 255, 255, 0.573);
+  backdrop-filter: blur(10px);
+  z-index: 399;
+  width: 105%;
+  height: 10%;
+  position: fixed;
+  margin-left: -1%;
+  margin-top: -1%;
+}
+#navbarlist{
+  list-style-type: none;
+}
 
+#navbar li{
+  margin-right: 14%;
+  float: left;
+}
+
+#sidebar{
+  width: 20%;
+  top: 0%;
+  height: 100%;
+  left:100%;
+  background-color: rgba(255, 255, 255, 0.573);
+  backdrop-filter: blur(10px);
+  z-index: 300;
+  position: fixed;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  line-height: 2.3vw;
+}
+#sidebarlist{
+  padding-top: 25%;
+  list-style: none;
+}
+.sidebarcategories{
+  font-size: 1vw;
+  font-weight: 600;
+
+}
+.sidebarpages{
+  font-size: 0.8vw;
+}
+.sidebarpages:hover{
+  text-decoration: underline;
+}
+#explorebutton{
+  cursor: pointer;
+  display: none;
+}
+#closesidebar{
+  cursor: pointer;
+  display: none;
+}
+
+#mobilesidebar{
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 399;
+  background-color: rgba(255, 255, 255, 0.573);
+  backdrop-filter: blur(10px);
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-size: 85%;
+  line-height: 300%;
+  height: 100%;
+  left:110%;
+  padding-top: 3%;
+}
+
+#mobileexplore{
+  cursor: pointer;
+}
+
+#mobileclose{
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 974px) {
+
+#sidebar{
+      display: none;
+    }
+    #navbar{
+      display:none;
+    }
+
+  #mobilesidebar{
+    display:block;
+  }
+}
+
+#mobilesidebarlist{
+  padding-top: 13%;
+  list-style: none;
+  text-align: center;
+  padding-left: 0%;
+}
+.mobilelistcategories{
+  font-size: 190%;
+  font-weight: 600;
+}
+
+.mobilelistpages{
+  font-size: 130%;
+}
+
+#mobilenav{
+  position: fixed;
+  z-index: 400;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 100;
+font-style: normal;
+  font-size: 100%;
+  left: 80%;
+  padding-top: 2%;
+  display: none;
+}
+@media only screen and (max-width: 974px) {
+   #sidebar{
+      display: none;
+    }
+    #navbar{
+      display:none;
+    }
+    #mobilenav{
+      display: block;
+    }
+  }
+
+  #mobileexplore{
+  cursor: pointer;
+}
+
+#mobileclose{
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 974px) {
+  #mobilesidebar{
+    display:block;
+  }
+}
+
+#mobilesidebarlist{
+  padding-top: 13%;
+  list-style: none;
+  text-align: center;
+  padding-left: 0%;
+}
