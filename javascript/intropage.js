@@ -411,6 +411,38 @@ myAllseekList.addEventListener('mouseleave', () => {
   myAllseekPic.style.display = 'none';
 });
 
+var myMetEmailTitle = document.getElementById('metemailtitle');
+var myMetEmailPic = document.getElementById('metemailpic1');
+var myMetEmailList = document.getElementById('metemaillistitem');
+myMetEmailList.addEventListener('mouseenter', () => { 
+  // myAllseekTitle.style.display = 'block';
+  myMetEmailPic.style.display = 'block';
+});
+
+var myMetEmailTitle = document.getElementById('metemailtitle');
+var myMetEmailPic = document.getElementById('metemailpic1');
+var myMetEmailList = document.getElementById('metemaillistitem');
+myMetEmailList.addEventListener('mouseleave', () => { 
+  // myAllseekTitle.style.display = 'none';
+  myMetEmailPic.style.display = 'none';
+});
+
+var myLiveinhdTitle = document.getElementById('liveinhdtitle');
+var myLiveinhdPic = document.getElementById('liveinhdpic1');
+var myLiveinhdList = document.getElementById('liveinhdlistitem');
+myLiveinhdList.addEventListener('mouseenter', () => { 
+  // myAllseekTitle.style.display = 'block';
+  myLiveinhdPic.style.display = 'block';
+});
+
+var myLiveinhdTitle = document.getElementById('liveinhdtitle');
+var myLiveinhdPic = document.getElementById('liveinhdpic1');
+var myLiveinhdList = document.getElementById('liveinhdlistitem');
+myLiveinhdList.addEventListener('mouseleave', () => { 
+  // myAllseekTitle.style.display = 'none';
+  myLiveinhdPic.style.display = 'none';
+});
+
 // var mySwitchTitle = document.getElementById('switchtitle');
 // var mySwitchPic = document.getElementById('switchpic1');
 // var mySwitchList = document.getElementById('switchlistitem');
@@ -524,63 +556,63 @@ mySFMOMAList.addEventListener('mouseleave', () => {
   mySFMOMAPic.style.display = 'none';
 });
 
-// var myLanguageTitle = document.getElementById('languagetitle');
-// var myLanguagePic = document.getElementById('languagepic1');
-// var myLanguageList = document.getElementById('languagelistitem');
-// myLanguageList.addEventListener('mouseenter', () => { 
-//   // myLanguageTitle.style.display = 'block';
-//   myLanguagePic.style.display = 'block';
+var myLanguageTitle = document.getElementById('languagetitle');
+var myLanguagePic = document.getElementById('languagepic1');
+var myLanguageList = document.getElementById('languagelistitem');
+myLanguageList.addEventListener('mouseenter', () => { 
+  // myLanguageTitle.style.display = 'block';
+  myLanguagePic.style.display = 'block';
+});
+
+var myLanguageTitle = document.getElementById('languagetitle');
+var myLanguagePic = document.getElementById('languagepic1');
+var myLanguageList = document.getElementById('languagelistitem');
+myLanguageList.addEventListener('mouseleave', () => { 
+  // myLanguageTitle.style.display = 'none';
+  myLanguagePic.style.display = 'none';
+});
+
+// var myPrintmenu = document.getElementById('printmenu');
+// var myPrintbar = document.getElementById('printbar');
+// myPrintbar.addEventListener('click', () => { 
+//   myPrintmenu.style.left = '0%';
+//   myPrintmenu.style.transitionDuration = '2s';
 // });
 
-// var myLanguageTitle = document.getElementById('languagetitle');
-// var myLanguagePic = document.getElementById('languagepic1');
-// var myLanguageList = document.getElementById('languagelistitem');
-// myLanguageList.addEventListener('mouseleave', () => { 
-//   // myLanguageTitle.style.display = 'none';
-//   myLanguagePic.style.display = 'none';
+// var myPrintmenu = document.getElementById('printmenu');
+// var myPrintx = document.getElementById('xbutton');
+// myPrintx.addEventListener('click', () => { 
+//   myPrintmenu.style.left = '-105%';
+//   myPrintmenu.style.transitionDuration = '2s';
 // });
 
-var myPrintmenu = document.getElementById('printmenu');
-var myPrintbar = document.getElementById('printbar');
-myPrintbar.addEventListener('click', () => { 
-  myPrintmenu.style.left = '0%';
-  myPrintmenu.style.transitionDuration = '2s';
-});
+// var myWebmenu = document.getElementById('webmenu');
+// var myWebbar = document.getElementById('webbar');
+// myWebbar.addEventListener('click', () => { 
+//   myWebmenu.style.left = '0%';
+//   myWebmenu.style.transitionDuration = '2s';
+// });
 
-var myPrintmenu = document.getElementById('printmenu');
-var myPrintx = document.getElementById('xbutton');
-myPrintx.addEventListener('click', () => { 
-  myPrintmenu.style.left = '-105%';
-  myPrintmenu.style.transitionDuration = '2s';
-});
+// var myWebmenu = document.getElementById('webmenu');
+// var myWebx = document.getElementById('xbutton2');
+// myWebx.addEventListener('click', () => { 
+//   myWebmenu.style.left = '-105%';
+//   myWebmenu.style.transitionDuration = '2s';
+// });
 
-var myWebmenu = document.getElementById('webmenu');
-var myWebbar = document.getElementById('webbar');
-myWebbar.addEventListener('click', () => { 
-  myWebmenu.style.left = '0%';
-  myWebmenu.style.transitionDuration = '2s';
-});
+// var myOthermenu = document.getElementById('othermenu');
+// var myOtherbar = document.getElementById('otherbar');
+// myOtherbar.addEventListener('click', () => { 
+//   myOthermenu.style.left = '0%';
+//   myOthermenu.style.transitionDuration = '2s';
+// });
 
-var myWebmenu = document.getElementById('webmenu');
-var myWebx = document.getElementById('xbutton2');
-myWebx.addEventListener('click', () => { 
-  myWebmenu.style.left = '-105%';
-  myWebmenu.style.transitionDuration = '2s';
-});
-
-var myOthermenu = document.getElementById('othermenu');
-var myOtherbar = document.getElementById('otherbar');
-myOtherbar.addEventListener('click', () => { 
-  myOthermenu.style.left = '0%';
-  myOthermenu.style.transitionDuration = '2s';
-});
-
-var myOthermenu = document.getElementById('othermenu');
-var myOtherx = document.getElementById('xbutton3');
-myOtherx.addEventListener('click', () => { 
-  myOthermenu.style.left = '-105%';
-  myOthermenu.style.transitionDuration = '2s';
-});
+// var myOthermenu = document.getElementById('othermenu');
+// var myOtherx = document.getElementById('xbutton3');
+// myOtherx.addEventListener('click', () => { 
+//   myOthermenu.style.left = '-105%';
+//   myOthermenu.style.transitionDuration = '2s';
+// });
 
 // var myTestimage2 = document.getElementById('test2');
 // var myTestimage1 = document.getElementById('test1');
@@ -671,4 +703,39 @@ mySlide5.addEventListener('click', () => {
   myFeat3.style.display = 'none';
   myFeat4.style.display = 'none';
   myFeat5.style.display = 'block';
+});
+
+var myExplore = document.getElementById('explorebutton');
+var myCloseButton = document.getElementById('closesidebar');
+var mySidebar = document.getElementById('sidebar');
+var myMobilesidebar = document.getElementById('mobilesidebar');
+var myMobileexplore= document.getElementById('mobileexplore');
+var myMobileclose = document.getElementById('mobileclose');
+
+myExplore.addEventListener('click', () => { 
+    myExplore.style.display = 'none';
+myCloseButton.style.display = 'block';
+  mySidebar.style.left = '80%';
+  mySidebar.style.transitionDuration = '2s';
+});
+
+myCloseButton.addEventListener('click', () => { 
+    myCloseButton.style.display = 'none';
+    myExplore.style.display = 'block';
+    mySidebar.style.left = '100%';
+    mySidebar.style.transitionDuration = '2s';
+});
+
+myMobileexplore.addEventListener('click', () => { 
+  myMobileexplore.style.display = 'none';
+myMobileclose.style.display = 'block';
+myMobilesidebar.style.left = '0%';
+myMobilesidebar.style.transitionDuration = '2s';
+});
+
+myMobileclose.addEventListener('click', () => { 
+  myMobileclose.style.display = 'none';
+  myMobileexplore.style.display = 'block';
+  myMobilesidebar.style.left = '110%';
+  myMobilesidebar.style.transitionDuration = '2s';
 });

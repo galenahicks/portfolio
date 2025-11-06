@@ -1,3 +1,5 @@
+console.log("sidebar")
+
 var myExplore = document.getElementById('explorebutton');
 var myCloseButton = document.getElementById('closesidebar');
 var mySidebar = document.getElementById('sidebar');
