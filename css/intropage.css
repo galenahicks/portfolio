@@ -1102,6 +1102,13 @@ font-style: normal;
   #mobilesidebar{
     display:block;
   }
+  .largetitle{
+    font-size: 200%;
+  }
+  .mobilefeatured{
+    top: 0%;
+    margin-top: 95%;
+  }
 }
 
 #mobilesidebarlist{

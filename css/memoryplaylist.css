@@ -584,3 +584,53 @@ line-height: 200%;
 .mobilelistpages{
   font-size: 130%;
 }
+
+.contactportrait{
+  position: absolute;
+  top: 15%;
+    width: 20%;
+    height: auto;
+    padding: 2%;
+    padding-left: 5%;
+    z-index: 1;
+  }
+
+  .contactsubtitle{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 500;
+font-style: normal;
+color:rgb(114, 114, 114);
+font-size: 110%;
+padding:2%;
+margin: auto;
+text-align: left;
+width: 50%;
+line-height: 200%;
+  }
+
+  .orangetext{
+  color:rgb(253, 76, 0);
+}
+.bluetext{
+  color:rgb(0, 153, 255);
+}
+
+ @media only screen and (max-width: 900px) {
+    .contactportrait {
+      top: 12%;
+      left:25%;
+    width: 50%;
+    padding: 0%;
+    }
+    .contactsubtitle{
+      margin-top: 50%;
+      left: 5%;
+      line-height: 1.33;
+      font-size: 100%;
+      width: 90%;
+      padding-top: 5%;
+    }
+  }
