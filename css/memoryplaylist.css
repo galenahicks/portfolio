@@ -634,3 +634,12 @@ line-height: 200%;
       padding-top: 5%;
     }
   }
+
+   @media only screen and (max-width: 900px) {
+    #bohemevideo {
+      width: 90%;
+    }
+    .metpics{
+      width: 90%;
+    }
+  }
