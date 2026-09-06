@@ -363,7 +363,7 @@ text-align: center;
   margin-left: 17.5%;
 }
 
-.musicvidJAN{
+.musicvidJANUARY{
   margin-left: 17.5%;
 }
 
@@ -640,6 +640,9 @@ line-height: 200%;
       width: 90%;
     }
     .metpics{
+      width: 90%;
+    }
+     .musicvidJAN{
       width: 90%;
     }
   }
